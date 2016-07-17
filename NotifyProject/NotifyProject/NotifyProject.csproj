@@ -36,6 +36,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="Extensions\NotifyPropertyChanged.cs" />
+    <Compile Include="Models\Car.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\Pages\Main.cs" />
     <Compile Include="Views\Pages\Main.xaml.cs">

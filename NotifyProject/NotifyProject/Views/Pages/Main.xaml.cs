@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-namespace NotifyProject.Views
+namespace NotifyProject.Views.Pages
 {
     public partial class Main : ContentPage
     {
