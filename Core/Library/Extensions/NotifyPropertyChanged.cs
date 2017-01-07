@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace notify.project.core.Library.Extensions
+namespace inpce.core.Library.Extensions
 {
     public static class NotifyPropertyChanged
     {

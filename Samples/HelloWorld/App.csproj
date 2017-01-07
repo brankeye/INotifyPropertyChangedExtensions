@@ -7,8 +7,8 @@
     <ProjectGuid>{1DA3D924-AC0E-4B64-BE65-415B6F776E99}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>notify.project.samples.helloworld.App</RootNamespace>
-    <AssemblyName>notify.project.samples.helloworld.App</AssemblyName>
+    <RootNamespace>inpce.samples.helloworld.App</RootNamespace>
+    <AssemblyName>App</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="INotifyPropertyChangedExtensions, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\INotifyPropertyChangedExtensions.1.0.1\lib\portable45-net45+win8+wp8+wpa81\INotifyPropertyChangedExtensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,12 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Core\Library\Library.csproj">
-      <Project>{a809f582-7889-449a-9ef9-034f1b700509}</Project>
-      <Name>Library</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

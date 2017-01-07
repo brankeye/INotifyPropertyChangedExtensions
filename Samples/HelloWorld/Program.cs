@@ -1,8 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
-using notify.project.samples.helloworld.App.Models;
 
-namespace notify.project.samples.helloworld.App
+namespace inpce.samples.helloworld.App
 {
     public class Program
     {

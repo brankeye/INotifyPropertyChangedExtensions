@@ -8,7 +8,7 @@
     <ProjectGuid>{A809F582-7889-449A-9EF9-034F1B700509}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>notify.project.core.Library</RootNamespace>
+    <RootNamespace>inpce.core.Library</RootNamespace>
     <AssemblyName>INotifyPropertyChangedExtensions</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
