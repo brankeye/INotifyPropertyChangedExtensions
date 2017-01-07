@@ -1,16 +1,14 @@
 ﻿using System.Resources;
 using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("notify.project.core.Library")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("NotifyProject")]
+[assembly: AssemblyDescription("Provides extension methods to INotifyPropertyChanged to reduce boilerplate code.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("notify.project.core.Library")]
+[assembly: AssemblyCompany("Brandon Keyes")]
+[assembly: AssemblyProduct("NotifyProject")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
