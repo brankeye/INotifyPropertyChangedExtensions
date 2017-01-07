@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel;
-using NotifyProject.Extensions;
+using notify.project.core.Library.Extensions;
 
-namespace NotifyProject.Models
+namespace notify.project.samples.helloworld.App.Models
 {
-    public class Car : INotifyPropertyChanged
+    public class Person : INotifyPropertyChanged
     {
         public string Name
         {
