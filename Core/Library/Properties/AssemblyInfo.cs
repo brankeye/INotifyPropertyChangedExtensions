@@ -4,11 +4,11 @@ using System.Reflection;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NotifyProject")]
-[assembly: AssemblyDescription("Provides extension methods to INotifyPropertyChanged to reduce boilerplate code.")]
+[assembly: AssemblyTitle("INotifyPropertyChangedExtensions")]
+[assembly: AssemblyDescription("Provides extension methods for INotifyPropertyChanged to raise the PropertyChanged event and reduce boilerplate code.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Brandon Keyes")]
-[assembly: AssemblyProduct("NotifyProject")]
+[assembly: AssemblyProduct("INotifyPropertyChangedExtensions")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
