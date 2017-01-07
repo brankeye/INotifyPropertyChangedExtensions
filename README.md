@@ -39,6 +39,7 @@ public class Person : INotifyPropertyChanged
 
 	public event PropertyChangedEventHandler PropertyChanged;
 }
+```
 
 ## Install
 
